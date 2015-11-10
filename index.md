@@ -3,11 +3,9 @@ layout: default
 title: About
 ---
 
-This is the personal web page of Sven Schmit, a fourth year PhD Student at [Stanford](http://icme.stanford.edu).
+I am Sven Schmit, a fourth year PhD Student at [Stanford](http://icme.stanford.edu) working with [Ramesh Johari](http://www.stanford.edu/~rjohari).
 My interests are at the interface of statistics, mathematics and computer science and I aspire to bring theory and practice together. 
 
-I feel incredibly fortunate to work with [Prof. Johari](http://www.stanford.edu/~rjohari), 
-and to be a member of the [Social Algorithms Lab](http://web.stanford.edu/group/soal/).
 
 ## Education
 
