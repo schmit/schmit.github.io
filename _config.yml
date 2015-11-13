@@ -10,15 +10,13 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.stanford.edu/~schmit" # the base hostname & protocol for your site
 
 # Social links.
-# Replace the word 'example' with your username if you want to include the icon in the left sidebar
-# Delete the word 'example' if you don't want to include the icon in the left sidebar
 
-twitter_username:     spschmit    # Replace this with your Twitter username
-github_username:      schmit      # Replace this with your GitHub username
-linkedin_username:    svenschmit  # Replace this with your LinkedIn username
-google_plus_username: # Replace this with your Google+ username
-facebook_username:    # Replace this with your Facebook username
-dribbble_username:    # Replace this with your Dribbble username
+twitter_username:     spschmit
+github_username:      schmit
+linkedin_username:    svenschmit
+google_plus_username:
+facebook_username:
+dribbble_username:
 
 # Build settings
 markdown: kramdown
