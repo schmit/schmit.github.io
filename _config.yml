@@ -1,13 +1,13 @@
 # Site settings
 
 title: Sven Schmit # Title of your site
-email: schmit [at] stanford.edu # Your contant email
+email: schmit [at] stanford.edu # Your contact email
 
 description: > # this means to ignore newlines until "baseurl:"
   Personal webpage Sven Schmit, PhD student at ICME, Stanford.
   Interested in Statistics, Machine Learning, Algorithms, Python.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://www.stanford.edu/~schmit" # the base hostname & protocol for your site
+url: "http://schmit.github.io" # the base hostname & protocol for your site
 
 # Social links.
 
@@ -20,3 +20,4 @@ dribbble_username:
 
 # Build settings
 markdown: kramdown
+exclude: [push.sh]
