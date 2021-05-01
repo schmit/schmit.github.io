@@ -16,13 +16,16 @@ My interests are at the interface of statistics, mathematics and computer scienc
 
 - **Stitch Fix**, 2018 - Now
 
-    On the Algorithms team at Stitch Fix I have worked on a variety of machine learning, statistics and opimtization problems. These include:
+    On the Algorithms team at Stitch Fix I have worked on a variety of machine learning, statistics and opimtization problems. These include
+    - An experimentation framework to deal with spillover effects from inventory constraints
+    - Multiple algorithms based on latent embeddings: similar item search, diversifying recommendations, and generating outfits
+    - Solving large scale optimization problems (distributed in PySpark, and with state of the art commercial solver)
+    - Creating a production system that serves [Style Shuffle](https://www.stitchfix.com/women/blog/inside-stitchfix/how-style-shuffle-works/) quizzes to clients in real-time
+    - Proposing, running, and analyzing multiple experiments
 
-    - An experimentation framework to deal with spillover effects from inventory constraints.
-    - Multiple algorithms based on latent embeddings: similar item search, diversifying recommendations, and generating outfits.
-    - Solving large scale optimization problems (distributed in PySpark, and with state of the art commercial solver).
-    - Creating a production system that serves [Style Shuffle](https://www.stitchfix.com/women/blog/inside-stitchfix/how-style-shuffle-works/) quizzes to clients in real-time.
-    - Proposing, running, and analyzing multiple experiments.
+    among a variety of other problems.
+
+
 
 - **Stitch Fix** internship, Summer 2014 and Summer 2015
 
@@ -56,32 +59,6 @@ My interests are at the interface of statistics, mathematics and computer scienc
 - **BSc Econometrics and Operations Research**, 2011
 
     University of Groningen
-
-
-## Teaching
-
-
-- **CME 193** Introduction to Scientific Python
-
-    Instructor for a one-unit introductory course on Python multiple times.
-    We cover the basics of Python, and dive deeper into the mathematically oriented libraries,
-    such as Numpyy Scipy and Matplotlib.
-    We also cover modern tools, such as the Jupyter Notebooks.
-
-    Material of the course is available on the [course website](http://www.stanford.edu/~schmit/cme193)
-    and [github](https://github.com/schmit/intro-python-course).
-
-
-- **MS&E 226** Small data
-
-    Teaching assistant for the excellent course on ["small" data](http://web.stanford.edu/class/msande226/) taught by Ramesh Johari.
-
-
-- **CME 106** Introduction to Probability and Statistics for Engineers
-
-    Teaching assistant for a first course in probability and statistics for engineering students at Stanford.
-
-    A review of the probability theory taught in the class can be found [here](http://stanford.edu/~schmit/misc/cme106_review.pdf).
 
 ## Side projects
 

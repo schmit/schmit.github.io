@@ -18,14 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Sven's blog
+title: Low Dimensional Representations
 email: spsnld [at] gmail [dot] com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  The personal blog of Sven Schmit.
+
+  Not a mathematician, not a statistician, not an economist, not a computer scientist, not a runner, but definitely not a jogger. Hails from the Netherlands.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://schmit.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: spschmit
 github_username:  schmit
 

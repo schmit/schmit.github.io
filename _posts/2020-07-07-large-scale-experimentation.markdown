@@ -3,6 +3,7 @@ layout: post
 title:  "Large scale experimentation"
 date:   2020-07-07 21:26:24 -0700
 categories: statistics
+tags: statistics research
 ---
 
 [Ramesh Johari](http://web.stanford.edu/~rjohari/), [Virag Shah](https://www.linkedin.com/in/virag-shah-bb986419/), and myself wrote an academic paper on "large scale experimentation" that introduces a framework on how to think about optimal testing when there are a lot of possible experiments to run.
