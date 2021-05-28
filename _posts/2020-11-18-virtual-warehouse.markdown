@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Experimentation with resource constraints"
-date:   2020-07-07 21:26:24 -0700
+date:   2020-11-18 21:26:24 -0700
 categories: statistics
 tags: statistics stitchfix spillover
 ---

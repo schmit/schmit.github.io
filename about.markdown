@@ -5,6 +5,7 @@ permalink: /about/
 ---
 
 Welcome to my personal page. Currently, I lead the Core Representation Learning team at [Stitch Fix](https://algorithms-tour.stitchfix.com/).
+Our team builds multiple recommendation systems that help understand client perferences across multiple dimensions such as style and size.
 
 Previously, I obtained my PhD at [Stanford](http://icme.stanford.edu) working with [Ramesh Johari](http://www.stanford.edu/~rjohari).
 My interests are at the interface of statistics, mathematics and computer science.
@@ -22,9 +23,6 @@ My interests are at the interface of statistics, mathematics and computer scienc
     - Solving large scale optimization problems (distributed in PySpark, and with state of the art commercial solver)
     - Creating a production system that serves [Style Shuffle](https://www.stitchfix.com/women/blog/inside-stitchfix/how-style-shuffle-works/) quizzes to clients in real-time
     - Proposing, running, and analyzing multiple experiments
-
-    among a variety of other problems.
-
 
 
 - **Stitch Fix** internship, Summer 2014 and Summer 2015

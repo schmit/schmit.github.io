@@ -19,7 +19,7 @@ We will assume a basic familiarity with Jax. You can find the code on [colab](ht
 # Flax
 
 There are a few libraries built on top of Jax that help with creating neural networks specifically: Haiku by DeepMind, and Flax and Trax both developed by Google AI.
-Without any particularly strong preferency, we will use Flax for this task.
+Without any particularly strong preference, we will use Flax for this task.
 
 We use the following imports
 ```python
@@ -35,7 +35,7 @@ from flax import optim
 
 # Preparing data
 
-When prototyping any machine learning method, it is always helpful to have a trivial example data set. This is particularly beneficial when creating a neural network, as it is very easy miss subtle bugs that cause unexpected behavior. Overfitting a model to a small dataset is a great sanity check to ensure your model is actually doing what you think it is. In this case, let's use the repetive string `abcd...adcd...` as input.
+When prototyping any machine learning method, it is always helpful to have a trivial example data set. This is particularly beneficial when creating a neural network, as it is very easy miss subtle bugs that cause unexpected behavior. Overfitting a model to a small dataset is a great sanity check to ensure your model is actually doing what you think it is. In this case, let's use the repetitive string `abcd...adcd...` as input.
 
 To map characters to indices and back, let's create a convenience function which, for lack of a better name, I call a bridge:
 ```python
@@ -109,7 +109,11 @@ class ChaRNN(nn.Module):
 
   def init_state(self):
     # a convenient way to initialize the state
-    return [np.zeros(self.state_size), np.zeros(self.state_size), np.zeros(self.state_size)]
+    return [
+      np.zeros(self.state_size),
+      np.zeros(self.state_size),
+      np.zeros(self.state_size)
+    ]
 ```
 
 Let's write a function that can generate new sequences by sampling from the model.
@@ -158,7 +162,7 @@ sample(model, params, (char_to_id, id_to_char), 'abc', max_length=10)
 
 # Training
 
-Now that we have verified the model code works, it is time to focus on optimzing the parameters.
+Now that we have verified the model code works, it is time to focus on optimizing the parameters.
 Recall that we want the model to predict the next character based on the sequence of characters seen so far.
 We create the following function to batch the input and creates a sequence of inputs and another sequence of targets to predict, which
 is the same as the input sequence but shifted by one.
@@ -204,7 +208,8 @@ def rnn_loss(params, model, state, inputs, targets):
 # use static_argnums=1 to indicate that the model is static;
 # a different model input will require recomplication
 # finally, we jit the function to improve runtime
-rnn_loss_grad = jax.jit(jax.value_and_grad(rnn_loss, has_aux=True), static_argnums=1)d
+rnn_loss_grad = jax.jit(jax.value_and_grad(rnn_loss, has_aux=True),
+                        static_argnums=1)
 ```
 
 ## Optimization
@@ -271,7 +276,7 @@ Epoch:  80 loss: 0.479 time: 0.06
 Sample: abcd...abcd...abcd...abcd...abcd...abcd...abcd...abcd.
 ```
 
-# Turning to real data
+# Using real data
 
 The trivial example above should give us some confidence that the code we wrote works as expected.
 For a bit of fun, let's run the same code on a slightly more interesting dataset.
@@ -295,8 +300,6 @@ result, losses, bridge = train(kafka, model, params, 400,
                                weight_decay=1e-7,
                                sample_every=25, sample_prompt="Gregor")
 ```
-
-and we can see that in a few epochs, the model is able to string together some words.
 
 ```
 Model state size: 128, vocab size: 64
@@ -366,8 +369,14 @@ to his father and he had been to his father and he had been
 ```
 
 While the model is able to string together words quite quickly, the deterministic sampling converges to equilibria of repeating patterns.
+
+# Wrapping up
+
 Of course, from here on out we can improve on all aspects of this modeling exercise, but for now, I hope this has been useful in getting a better grasp of Jax.
-Personally, I find that the functional style of Jax makes for code that is rather intuitive and a pleasure to work with.
+Personally, I find Jax a pleasure to work with: the functional style makes it easy to write transparent code.
+Furthermore, if you have experience with Numpy, the syntax obviously feels familiar.
+It's true that the handling of randomness requires a bit of getting used to,
+and libraries such as Flax do some magic under the hood to help make the functional approach practical, but both are for the greater good.
 
 _If you have questions, comments or find an error, please reach out via Twitter or email!_
 
