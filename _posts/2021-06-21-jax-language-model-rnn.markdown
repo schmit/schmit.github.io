@@ -8,7 +8,7 @@ tags: recurrent neural nets deep learning jax
 
 [Jax](https://github.com/google/jax) is a relatively new Python library aimed as a drop in replacement for Numpy for machine learning research.
 It sets itself apart due to its functional approach, which I find really enjoyable.
-Recently I have been playing around with implementing a simple RNN using Flax to get beyond the basics, but without adding all the bells and whistles.
+Recently I have been playing around with implementing a simple RNN using Flax to get beyond the basics of Jax, but without adding all the bells and whistles.
 
 The goal is to create a character level language model using a simple RNN following the approach by Andrej Karpathy's 2015 blog post ["The Unreasonable Effectiveness of Recurrent Neural Networks"](http://karpathy.github.io/2015/05/21/rnn-effectiveness/), but focus on Jax rather than creating an unreasonably effective network.
 That is, given a reasonably sized text, say a book, we want to create a model that generates content one character at a time. We will find that it is relatively easy for the simplest of RNNs to learn how to string together a few words using a small network and few training epochs.
@@ -19,7 +19,7 @@ We will assume a basic familiarity with Jax. You can find the code on [colab](ht
 # Flax
 
 There are a few libraries built on top of Jax that help with creating neural networks specifically: Haiku by DeepMind, and Flax and Trax both developed by Google AI.
-Without any particularly strong preference, we will use Flax for this task.
+Without any particularly strong preference for any of them, we will use Flax for this task.
 
 We use the following imports
 ```python
@@ -37,7 +37,7 @@ from flax import optim
 
 When prototyping any machine learning method, it is always helpful to have a trivial example data set. This is particularly beneficial when creating a neural network, as it is very easy miss subtle bugs that cause unexpected behavior. Overfitting a model to a small dataset is a great sanity check to ensure your model is actually doing what you think it is. In this case, let's use the repetitive string `abcd...adcd...` as input.
 
-To map characters to indices and back, let's create a convenience function which, for lack of a better name, I call a bridge:
+To map characters to indices and back, we create a convenience function which, for lack of a better name, I call a bridge:
 ```python
 def id_bridge(iterable):
   """ provides mapping to and from ids """
