@@ -1,23 +1,56 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
 # Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-title: Sven Schmit # Title of your site
-email: schmit [at] stanford.edu # Your contact email
+title: Random Projections
+email: spsnld [at] gmail [dot] com
+description: >- # this means to ignore newlines until "baseurl:"
+  The personal blog of Sven Schmit.
 
-description: > # this means to ignore newlines until "baseurl:"
-  Personal webpage Sven Schmit, PhD student at ICME, Stanford.
-  Interested in Statistics, Machine Learning, Algorithms, Python.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://schmit.github.io" # the base hostname & protocol for your site
-
-# Social links.
-
-twitter_username:     spschmit
-github_username:      schmit
-linkedin_username:    svenschmit
-google_plus_username:
-facebook_username:
-dribbble_username:
+  Not a mathematician, not a statistician, not an economist, not a computer scientist, not a runner, but definitely not a jogger. Hails from the Netherlands.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://schmit.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: spschmit
+github_username:  schmit
 
 # Build settings
-markdown: kramdown
-exclude: [push.sh]
+theme: minima
+plugins:
+  - jekyll-feed
+
+google_analytics: UA-69922160-1
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
