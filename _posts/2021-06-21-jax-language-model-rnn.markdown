@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Language modeling with Jax and RNNs"
-date:   2021-04-05 21:26:24 -0700
+date:   2021-06-20 21:26:24 -0700
 categories: jax
 tags: recurrent neural nets deep learning jax
 ---
