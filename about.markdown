@@ -4,10 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Welcome to my personal page. Currently, I lead the Core Representation Learning team at [Stitch Fix](https://algorithms-tour.stitchfix.com/).
+Welcome to my personal page. Currently, I help build [Eppo](https://www.geteppo.com/), an experimentation platform to empower the curious and entrepreneurial as Statistics Engineer.
+
+Previously, I led the Core Representation Learning team at [Stitch Fix](https://algorithms-tour.stitchfix.com/).
 Our team builds multiple recommendation systems that help understand client perferences across multiple dimensions such as style and size and form an important backbone of all recommendations across Stitch Fix products.
 
-Previously, I obtained my PhD at [Stanford](http://icme.stanford.edu) working with [Ramesh Johari](http://www.stanford.edu/~rjohari).
+I obtained my PhD at [Stanford](http://icme.stanford.edu) working with [Ramesh Johari](http://www.stanford.edu/~rjohari).
 My interests are at the interface of statistics, mathematics and computer science.
 
 <br>
@@ -15,11 +17,15 @@ My interests are at the interface of statistics, mathematics and computer scienc
 
 ## Experience
 
-- **Stitch Fix**, 2018 - Now
+- **Eppo**, 2021 - Now
+    
+    As Statistics Engineer, I focus on combining statistical rigour with an intuitive product that empowers everyone to analyze experiments with confidence. 
+    
+- **Stitch Fix**, 2018 - 2021
 
     On the Algorithms team at Stitch Fix I have worked on a variety of machine learning, statistics and opimtization problems. These include
-    - An experimentation framework to deal with spillover effects from inventory constraints
     - Multiple algorithms based on latent embeddings: similar item search, diversifying recommendations, and generating outfits
+    - An experimentation framework to deal with spillover effects from inventory constraints
     - Solving large scale optimization problems (distributed in PySpark, and with state of the art commercial solver)
     - Creating a production system that serves [Style Shuffle](https://www.stitchfix.com/women/blog/inside-stitchfix/how-style-shuffle-works/) quizzes to clients in real-time
     - Proposing, running, and analyzing multiple experiments
