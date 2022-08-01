@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Welcome to my personal page. Currently, I help build [Eppo](https://www.geteppo.com/), an experimentation platform to empower the curious and entrepreneurial as Statistics Engineer.
+Welcome to my personal page. Currently, I help build [Eppo](https://www.geteppo.com/), an experimentation platform to empower the curious and entrepreneurial as the founding Statistics Engineer; my time is roughly equally split by doing statistics, engineering and product work. Projects including work on sequential confidence intervals, implementing [CUPED](https://www.geteppo.com/blog/bending-time-in-experimentation), and automated power analyses, to name a few.
 
 Previously, I led the Core Representation Learning team at [Stitch Fix](https://algorithms-tour.stitchfix.com/).
 Our team builds multiple recommendation systems that help understand client perferences across multiple dimensions such as style and size and form an important backbone of all recommendations across Stitch Fix products.
@@ -18,9 +18,9 @@ My interests are at the interface of statistics, mathematics and computer scienc
 ## Experience
 
 - **Eppo**, 2021 - Now
-    
-    As Statistics Engineer, I focus on combining statistical rigour with an intuitive product that empowers everyone to analyze experiments with confidence. 
-    
+
+    As Statistics Engineer, I focus on combining statistical rigour with an intuitive product that empowers everyone to analyze experiments with confidence.
+
 - **Stitch Fix**, 2018 - 2021
 
     On the Algorithms team at Stitch Fix I have worked on a variety of machine learning, statistics and opimtization problems. These include
