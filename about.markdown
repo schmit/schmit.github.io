@@ -19,7 +19,7 @@ My interests are at the interface of statistics, mathematics and computer scienc
 
 - **Eppo**, 2021 - Now
 
-    As Statistics Engineer, I focus on combining statistical rigour with an intuitive product that empowers everyone to analyze experiments with confidence. Projects including work on sequential confidence intervals, implementing [CUPED](https://www.geteppo.com/blog/bending-time-in-experimentation), and automated power analyses, to name a few.
+    As Statistics Engineer, I focus on combining statistical rigour with an intuitive product that empowers everyone to analyze experiments with confidence. Projects include work on sequential confidence intervals, implementing [CUPED](https://www.geteppo.com/blog/bending-time-in-experimentation), and automated power analyses.
 
 - **Stitch Fix**, 2018 - 2021
 
