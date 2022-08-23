@@ -36,6 +36,14 @@ plugins:
   - jekyll-remote-theme
 
 google_analytics: G-BGD8S3HYW2
+
+minima:
+  social_links:
+    twitter: spschmit
+    github: schmit
+    stackoverflow: "3599576"
+    linkedin: svenschmit
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
