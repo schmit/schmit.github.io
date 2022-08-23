@@ -10,4 +10,4 @@ tags: statistics research
 
 To accompany the more technical academic paper, I wrote [a blog post with a more intuitive exposition of the main ideas for the Multithreaded blog](https://multithreaded.stitchfix.com/blog/2020/07/07/large-scale-experimentation/).
 
-My personal aspect of this blog post is the interactive visualization by [Brian Coffey](https://www.linkedin.com/in/brianedwardcoffey/) where the reader is encouraged to explore different testing strategies.
+My favorite aspect of this blog post is the interactive visualization by [Brian Coffey](https://www.linkedin.com/in/brianedwardcoffey/) where the reader is encouraged to explore different testing strategies.
