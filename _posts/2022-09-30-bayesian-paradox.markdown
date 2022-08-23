@@ -6,24 +6,31 @@ categories: statistics
 tags: statistics bayesian
 ---
 
+![imposter statistician](/assets/img/imposter.png)
+
+Sometimes, statistical guarantees are not what they seem.
+Here, we discuss the implications of a classic work that demonstrates a paradox with the Bayesian approach to experiment analysis:
+when not careful, the experimenter runs the risk of running a frequentist analysis without realizing it.
+This can have important implications: when combined with peeking, the credible intervals might not be so credible after all.
+
 ## The Great Debate
 
-When you are building an experimentation platform,
+When you are building an [experimentation platform][eppo],
 it's impossible to avoid the debates between frequentist and Bayesian approaches to hypothesis testing.
 Ardent supporters on both sides espouse the benefits of their approach, but when the debate has been raging for decades,
 and between the most famous and brightest statisticians, it's no surprise there aren't any easy answers.
 
-Recently, [Steve Howard][howard] shared a brilliant paper that really helps understand the nuances, and it inspired me to put it in the context of experimentation.
 An oft highlighted issue of the classical frequentist approach is that of the peeking problem:
 with modern tooling, it's often easy to monitor the results of experiments while collecting data.
-However, the frequentist guarantees break when you peek at experiments, with an inflated type I error rate:
+However, the frequentist guarantees [break when you peek at experiments][evan-peeking], leading to an inflated type I error rate:
 you end up claiming there is a difference between variants far more often than you want to in the case both variants in fact have the same outcome distribution.
-
 On the other hand, Bayesian supporters often highlight that the Bayesian approach does not suffer from the peeking problem,
-claiming that this is one of the benefits of using a Bayesian testing ergime over a frequentist one.
+claiming that this is one of the benefits of using a Bayesian testing regime over a frequentist one.
+
 Statistics is often more subtle than it first seems, and so we have to wonder: is this too good to be true?
-Famous Bayesian statistician A.P. Dawid wrote a fantastic paper in the 90s: ["Selection paradoxes of Bayesian inferences"][dawid-paper]
-that I highly recommend you read: it's fairly accessible, both in that there is no paywall, and that the reasoning is easy to follow.
+Famous Bayesian statistician [Philip Dawid][dawid] wrote a fantastic paper in the 90s: ["Selection paradoxes of Bayesian inferences"][dawid-paper], shared to me by [Steve Howard][howard],
+that I highly recommend you read.
+It's fairly accessible, both in that there is no paywall, and that the reasoning is easy to follow.
 In this work, he introduces what I would like to call the "Bayesian imposter": someone who claims the benefits of the Bayesian approach,
 while actually doing frequentist analysis.
 
@@ -40,7 +47,7 @@ Now we use some statistical method to compare the two variants, e.g. by comparin
 
 ## Frequentist versus Bayesian hypothesis testing
 
-Before diving in, let us briefly recap the differences between frequentist and bayesian hypothesis testing.
+Before diving in, let us briefly recap the differences between frequentist and Bayesian hypothesis testing.
 
 In the frequentist setting the underlying parameter fixed, while the observed data is considered as the random variable.
 Thus, the frequentist thinks about guarantees on their inference methods through considering repeated draws of data.
@@ -85,6 +92,7 @@ The culprit is clear: it is the flat prior that causes the Bayesian posterior to
 frequentist analysis is based.
 As usual, there is no free lunch: the Bayesian approach has not magically solved the issue of peeking for free.
 Rather, to solve the problem posed by peeking, we need to solve the problem of the prior: Bayesian analysis works when the prior works.
+David Robinson demonstrates the [same point using simulations][robinson-peeking].
 
 Adaptivity, or the ability to peek, is very powerful and the Bayesian approach is far simpler than the [frequentist alternative of sequential testing][sequential-paper].
 But powerful results often require strong assumptions; in this case the need for a well-chosen prior.
@@ -94,13 +102,17 @@ But powerful results often require strong assumptions; in this case the need for
 Bayesian and frequentist approaches and guarantees are fundamentally different, but under certain conditions, they lead to exactly the same results.
 Dawid demonstrates clearly that this creates a paradox: when results are the same, approaches cannot have fundamentally different guarantees.
 This is where the Bayesian imposter comes in: to truly enjoy the benefits of a Bayesian approach, one needs to carefully think about what prior to use,
-otherwise, the experimenter might just a frequentist in disguise, and be ignorant of the risks that poses to the validity of their claims.
+otherwise, the experimenter might just a frequentist in disguise, and be ignorant of the risks that poses to the validity of their statistical claims.
 
 More generally, when the experts have been debating the respective merits of frequentist versus Bayesian approaches,
 it must be true that one cannot be clearly better than the other: then the debate would have been settled a long time ago.
 When you experiment as a Bayesian, make sure you think carefully about your prior, or you might well be a frequentist without realizing it!
 
 
+[dawid]: https://www.statslab.cam.ac.uk/~apd/
 [howard]: https://www.stevehoward.org/
 [dawid-paper]: https://projecteuclid.org/ebooks/institute-of-mathematical-statistics-lecture-notes-monograph-series/Multivariate-analysis-and-its-applications/Chapter/Selection-paradoxes-of-Bayesian-inference/10.1214/lnms/1215463797
 [sequential-paper]: https://arxiv.org/abs/1810.08240
+[evan-peeking]: https://www.evanmiller.org/how-not-to-run-an-ab-test.html
+[robinson-peeking]: http://varianceexplained.org/r/bayesian-ab-testing/
+[eppo]: https://www.geteppo.com/
