@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Welcome to my personal page. Currently, I help build [Eppo](https://www.geteppo.com/), an experimentation platform to empower the curious and entrepreneurial as the founding Statistics Engineer; my time is roughly equally split by doing statistics, engineering and product work.
+Welcome to my personal page. Currently, I help build [Eppo](https://www.geteppo.com/), an experimentation platform to empower the curious and entrepreneurial as the founding [Statistics Engineer](https://www.geteppo.com/blog/were-hiring-a-statistics-engineer); my time is roughly equally split by doing statistics, engineering and product work.
 
 Previously, I led the Core Representation Learning team at [Stitch Fix](https://algorithms-tour.stitchfix.com/).
 Our team builds multiple recommendation systems that help understand client perferences across multiple dimensions such as style and size and form the backbone of all recommendations across Stitch Fix products.
