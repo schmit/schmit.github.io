@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Beware of the Bayesian imposter"
-date: 2022-09-30 00:00:00 -0700
+date: 2022-09-10 00:00:00 -0700
 categories: statistics
 tags: statistics bayesian
 ---
@@ -96,6 +96,10 @@ David Robinson demonstrates the [same point using simulations][robinson-peeking]
 
 Adaptivity, or the ability to peek, is very powerful and the Bayesian approach is far simpler than the [frequentist alternative of sequential testing][sequential-paper].
 But powerful results often require strong assumptions; in this case the need for a well-chosen prior.
+
+In particular, when we are unsure what prior to choose, the suggestion to use a weak prior is much more common than to use a strong one, and this makes sense:
+in the small data regime, a strong prior can dominate the posterior, which is undesirable especially when we do not feel strongly about the strong prior.
+But the discussion above reveals that it is a balancing act: both weak and strong priors have downsides and hence carefully finding the correct balance is unavoidable.
 
 ## Take-away
 
