@@ -22,8 +22,6 @@ To do so, we leverage some old ideas from portfolio optimization, combined with 
 [Markowitz model](https://en.wikipedia.org/wiki/Markowitz_model)
 Create a portfolio of assets that trades off between maximizing returns and minimzing variance
 
-$$ \max_{w: \|w\|_1 = 1} \sum_{i} w_i r_i - \rho \sum_{i, j} w_i w_j Cov(r_i, r_j) $$
-
 Idea: you want to select assets with high returns, but there is uncertainty in returns.
 Obviously we can put all our money in the single asset whose expected return we believe is the highest, but that would be risky.
 Instead, we want to select a diverse set of assets that we believe give us reasonably strong returns, but without putting all our eggs in one basket.
@@ -31,8 +29,13 @@ But that does not just mean we want to spread our investments across more than o
 That is, where the correlation between returns is low.
 E.g., if we invest only in technology stocks, we are exposed to the risk of the technology market collapsing, and with it all our investments.
 
+It turns out that given rates of return as well as correlations between assets,
+we can write the Markowitz optimization problem as a quadratic program, (see [Convex Optimization, p. 155](https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)).
 
-
+This sounds quite similar to what we want to do with our recommendations: on one hand we want to show the recommendations that we believe are best,
+but on the other hand we do not want to put all our eggs in one basket and make sure the recommendations look sufficiently diverse.
+The recommendation algorithm gives us scores for each item, which we can use as stand in for the "returns" of that item, but how about correlation.
+For that, we take inspiration from kernel functions.
 
 ## Kernels
 
