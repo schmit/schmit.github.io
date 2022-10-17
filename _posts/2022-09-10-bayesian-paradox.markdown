@@ -4,6 +4,8 @@ title: "Beware of the Bayesian imposter"
 date: 2022-09-10 00:00:00 -0700
 categories: statistics
 tags: statistics bayesian
+image: /assets/img/imposter.png
+
 ---
 
 ![imposter statistician](/assets/img/imposter.png)
