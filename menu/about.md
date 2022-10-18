@@ -1,8 +1,12 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: /about
 ---
+
+{:style="text-align:center;"}
+![sven](assets/img/sven.png){:height="200px" width="200px"}
+
 
 Welcome to my personal page. Currently, I help build [Eppo](https://www.geteppo.com/), an experimentation platform to empower the curious and entrepreneurial as the [Head of Statistics Engineering](https://www.geteppo.com/blog/were-hiring-a-statistics-engineer);
 my time is roughly equally split by doing statistics, engineering and product work.
@@ -12,8 +16,6 @@ Our team builds multiple recommendation systems that help understand client perf
 
 I obtained my PhD at [Stanford](http://icme.stanford.edu) working with [Ramesh Johari](http://www.stanford.edu/~rjohari).
 My interests are at the interface of statistics, mathematics and computer science.
-
-<br>
 
 
 ## Experience
@@ -70,7 +72,7 @@ My interests are at the interface of statistics, mathematics and computer scienc
 
 ## Side projects
 
-- I submitted a [bot](https://github.com/schmit/halite-bot) to the [Halite](http://2016.halite.io) artificial intelligence competition which finished in the top 3%.
+- I submitted a [bot](https://github.com/schmit/halite-bot) to the [Halite](https://www.twosigma.com/articles/introducing-halite-our-limited-release-ai-challenge/) artificial intelligence competition which finished in the top 3%.
 
 - [Here](https://github.com/schmit/fun-notebooks) is a collection of some Jupyter notebooks for fun little projects.
     For example, there is a [notebook](https://github.com/schmit/fun-notebooks/blob/master/notebooks/march-madness-2017/how-i-fill-my-bracket-2017.ipynb)

@@ -4,6 +4,8 @@ title:  "Language modeling with Jax and RNNs"
 date:   2021-06-20 09:00:00 -0700
 categories: jax
 tags: recurrent neural nets deep learning jax
+image: events.png
+
 ---
 
 [Jax](https://github.com/google/jax) is a relatively new Python library aimed as a drop in replacement for Numpy for machine learning research.

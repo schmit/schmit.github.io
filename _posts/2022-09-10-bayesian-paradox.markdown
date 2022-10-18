@@ -4,11 +4,9 @@ title: "Beware of the Bayesian imposter"
 date: 2022-09-10 00:00:00 -0700
 categories: statistics
 tags: statistics bayesian
-image: /assets/img/imposter.png
+image: imposter.png
 
 ---
-
-![imposter statistician](/assets/img/imposter.png)
 
 Sometimes, statistical guarantees are not what they seem.
 Here, we discuss the implications of a classic work that demonstrates a paradox with the Bayesian approach to experiment analysis:

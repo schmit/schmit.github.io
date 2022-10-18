@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Teaching
-permalink: /teaching/
+permalink: /teaching
 ---
 
 - **CME 193** Introduction to Scientific Python
@@ -17,7 +17,7 @@ permalink: /teaching/
 
 - **MS&E 226** Small data
 
-    Teaching assistant for the excellent course on ["small" data](http://web.stanford.edu/class/msande226/) taught by Ramesh Johari.
+    Teaching assistant for the excellent course on ["small" data](http://web.stanford.edu/~rjohari/teaching/syllabus/226_syllabus_2015.pdf).
 
 
 - **CME 106** Introduction to Probability and Statistics for Engineers
