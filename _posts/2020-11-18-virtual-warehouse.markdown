@@ -4,6 +4,8 @@ title:  "Experimentation with resource constraints"
 date:   2020-11-18 21:26:24 -0700
 categories: statistics
 tags: statistics stitchfix spillover
+image: squirrel.png
+
 ---
 
 Based on work at Stitch Fix around experimentation with resource constraints and our introduction of the "virtual warehouse", Greg Novak, Dave Spiegel and I wrote [a post on the Multithreaded blog](https://multithreaded.stitchfix.com/blog/2020/11/18/virtual-warehouse/).

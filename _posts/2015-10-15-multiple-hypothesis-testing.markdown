@@ -4,6 +4,8 @@ title:  "Multiple hypothesis testing"
 date:   2015-10-15 21:26:24 -0700
 categories: statistics stitch fix
 tags: statistics testing
+image: candy.png
+
 ---
 
 Inspired by the lack of blog posts about multiple hypothesis testing, [I wrote a post on multiple hypothesis testing for the Multithreaded blog](https://multithreaded.stitchfix.com/blog/2015/10/15/multiple-hypothesis-testing/).

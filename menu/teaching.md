@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Teaching
-permalink: /teaching/
+permalink: /teaching
 ---
 
 - **CME 193** Introduction to Scientific Python
