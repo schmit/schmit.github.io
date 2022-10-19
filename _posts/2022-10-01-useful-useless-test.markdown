@@ -4,13 +4,10 @@ title: "The useful useless hypothesis test"
 date: 2022-10-01 00:00:00 -0700
 categories: statistics
 tags: statistics confidence interval
-image: /assets/img/equations.png
+image: equations.png
 usemathjax: true
 
 ---
-
-
-![equations](/assets/img/equations.png)
 
 
 Frequentist hypothesis testing is both confusing and subtle
