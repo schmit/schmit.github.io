@@ -18,8 +18,9 @@ The figures used in this post are taken from the published work by the respectiv
 # Jake Hoffman on the effects of UX on understanding of uncertainty
 
 Jake Hoffman kicked off the conference with an important and often undervalued aspect of experimentation: the user interface really matters.
-Starting from the "inference" versus "predicion" views popularized by [Breiman][two-cultures], he showed that
-even expert's interpretation of effects in an experiment depend a lot on whether one uses standard error of the mean or the standard deviation of the sample.
+Starting from the "inference" versus "predicion" views popularized by [Breiman][two-cultures],
+he showed that even expert's interpretation of effectiveness of a drug in an experiment depends a lot on whether one uses standard error of the mean (underestimates variability and hence leans effective)
+or the standard deviation of the sample (leans ineffective).
 
 It is an important reminder that while we tend to nerd out on the mathematical problems,
 we cannot forget about the user experience; we need to make sure results are accessible
