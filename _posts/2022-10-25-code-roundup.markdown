@@ -148,8 +148,8 @@ In particular, I expect there to be a lot more work on interference, sequential 
 But as we nerd out on these problems, we should also keep the UX in mind:
 we cannot just solve the mathematical problems, we also need to make solutions accessible to the non-expert so they feel empowered to make better decisions.
 
-If you also attended CODE, let me know what your highlights are;
-if you did not hopefully this inspires you to visit Boston next year, the weather was surprisingly great!
+If you also attended CODE, let me know what your highlights are.
+If you did not, hopefully this inspires you to visit Boston next year; the weather was surprisingly great!
 
 
 [two-cultures]: https://projecteuclid.org/journals/statistical-science/volume-16/issue-3/Statistical-Modeling--The-Two-Cultures-with-comments-and-a/10.1214/ss/1009213726.full
