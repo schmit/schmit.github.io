@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CODE @ MIT 2022 round up"
-date: 2022-10-24 00:00:00 -0700
+date: 2022-10-25 00:00:00 -0700
 categories: experimentation
 tags: statistics conference
 image: cambridge.png
