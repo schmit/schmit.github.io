@@ -18,7 +18,7 @@ The figures used in this post are taken from the published work by the respectiv
 # Jake Hoffman on the effects of UX on understanding of uncertainty
 
 Jake Hoffman kicked off the conference with an important and often undervalued aspect of experimentation: the user interface really matters.
-Starting from the "inference" versus "predicion" views popularized by [Breiman][two-cultures],
+Starting from the "inference" versus "prediction" views popularized by [Breiman][two-cultures],
 he showed that even expert's interpretation of effectiveness of a drug in an experiment depends a lot on whether one uses standard error of the mean (underestimates variability and hence leans effective)
 or the standard deviation of the sample (leans ineffective).
 
@@ -49,7 +49,7 @@ The full paper is on [Arxiv][lobel-shadow-prices].
 # Kris Ferreira on human algorithm collaboration
 
 In a fantastic plenary talk, Kris Fereirra discussed her quest to understand how decision makers are interacting with algorithms to make better decisions, and what pitfalls they fall into.
-By decomposing information into a public part, accessible by both decision maker and algorithm, and private part, only accessible to decission maker, she shows that decision makers struggle to understand when the algorithm provides strong predictions versus when they should rely on important private information to overrule the suggestions by the algorithm.
+By decomposing information into a public part, accessible by both decision maker and algorithm, and private part, only accessible to decision maker, she shows that decision makers struggle to understand when the algorithm provides strong predictions versus when they should rely on important private information to overrule the suggestions by the algorithm.
 
 Instead, decision makers tend to use a convex combination of their own prediction and the algorithm's suggestion independent of the quality of the quality of the algorithm's prediction on a particular task.
 This leads to suboptimal decision both when the algorithm is correct as well as when it is wrong.
@@ -90,7 +90,7 @@ It is hard to pick a particular talk from a session full of great content,
 but personally I really enjoyed Michael's talk on extending sequential procedures for regressions;
 this enables us to combine sequential analysis with pre-experiment covariates and linear regression to reduce variance and thus speed up experiments.
 
-Two aspects of this talk stood out to me in particlar.
+Two aspects of this talk stood out to me in particular.
 1. It is often easy for research to lean theoretical, but here the practical use case is extremely obvious:
 adjusting for pre-experiment data often speeds up experiments substantially.
 2. The approach by Netflix is similar but also quite distinct from the way we at Eppo model this problem.
@@ -98,7 +98,7 @@ adjusting for pre-experiment data often speeds up experiments substantially.
 The latter is indicative of a broader phenomenon that stood out at the conference:
 we all have different approaches to the same problems and that makes it particular valuable to come together and be inspired by each other's work.
 
-Finally, worth mentioning is the callout by James McQueen that in practice it is very rare to observe a single outcome per user.
+Finally, worth mentioning is the call out by James McQueen that in practice it is very rare to observe a single outcome per user.
 Instead, we observe a sequence of events from which we construct an outcome that evolves over the duration of an experiment,
 but this often gets ignored in theoretical work on experimentation.
 Having struggled with this myself, it is great to see this problem being more broadly.
@@ -122,29 +122,29 @@ How can you allocate the limited number of tests in a way that minimizes the num
 
 Lo and behold, it worked and the team caught almost twice as many infection than random sampling would have.
 Hamsa demonstrates there is hope for the practical applicability of bandits,
-and likely saved afair number of lives in the process.
+and likely saved affair number of lives in the process.
 
 The full paper is published in [Nature][hamsa-greece].
 
 # John Cai on heterogeneous treatment effect estimation
 
-Another big topic at CODE was understanding and estimating heterogenous treatment effects (HTE), with clear applications in industry illustrated by talks from Snap, Netflix, and Meta.
+Another big topic at CODE was understanding and estimating heterogeneous treatment effects (HTE), with clear applications in industry illustrated by talks from Snap, Netflix, and Meta.
 Automatically finding segments of users for whom a treatment works particularly well, or poorly, has clear applications but is also a thorny problem that is far from solved.
 
 John Cai from Snap gave an overview of Snap's approach to HTE, bridging the gap between theory and practice:
 first by evaluating the effectiveness of testing whether HTE exist in the first place.
-If there are no heterogeneous effects, then a reasonable assumption is thatthe variance of control and treatment are the same.
+If there are no heterogeneous effects, then a reasonable assumption is that the variance of control and treatment are the same.
 This reduces the problem to testing the hypothesis that the variances are equal.
 
 If we do detect a difference in variances, then we can focus on finding dimensions that contribute most to heterogeneity in treatment effects by
 decomposing the total treatment effect variation into explained and idiosyncratic variation.
-All of this was demonstrated using an actual experiment the team ran at SNAP.
+All of this was demonstrated using an actual experiment the team ran at Snap.
 
 # Wrapping up
 
 It is clear that interest in experimentation is growing rapidly,
 and we are only scratching the surface on problems practitioners face.
-In particular, I expect there to be a lot more work on interference, sequential testing, hereterogeneous treatment effects, and understanding long term outcomes.
+In particular, I expect there to be a lot more work on interference, sequential testing, heterogeneous treatment effects, and understanding long term outcomes.
 But as we nerd out on these problems, we should also keep the UX in mind:
 we cannot just solve the mathematical problems, we also need to make solutions accessible to the non-expert so they feel empowered to make better decisions.
 
