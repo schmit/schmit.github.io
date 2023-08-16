@@ -59,7 +59,7 @@ But this has the unintuitive downside that a frequentist cannot give any certain
 The Bayesian perspective flips this around: you are handed a set of observations, clearly those are fixed.
 What you do not know is the value of the underlying parameter, so let's consider that the random variable.
 We encode our beliefs through a prior distribution for said parameter, and then combine that with the likelihood of
-observing the data given the parameter to form a posterior distrubtion.
+observing the data given the parameter to form a posterior distribution.
 Now the posterior distribution allows us to reason about this particular outcome: conditioning on the data is not a problem,
 because inference on the parameter is already conditioned on the data!
 
