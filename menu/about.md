@@ -5,7 +5,7 @@ permalink: /about
 ---
 
 {:style="text-align:center;"}
-![sven](assets/img/sven.png){:height="200px" width="200px"}
+![sven](assets/img/sven.jpg){:height="200px" width="200px"}
 
 
 Welcome to my personal page. Currently, I help build [Eppo](https://www.geteppo.com/), an experimentation platform to empower the curious and entrepreneurial as the [Head of Statistics Engineering](https://www.geteppo.com/blog/were-hiring-a-statistics-engineer);
@@ -20,12 +20,12 @@ My interests are at the interface of statistics, mathematics and computer scienc
 
 ## Experience
 
-- **Eppo**, 2021 - Now
+- **Eppo**, Nov 2021 - Now
 
     The statistics engineering team focuses on combining statistical rigour with an intuitive product that empowers everyone to analyze experiments with confidence.
-    Projects include work on sequential confidence intervals, implementing [CUPED](https://www.geteppo.com/blog/bending-time-in-experimentation), and automated power analysis.
+    Projects include work on sequential confidence intervals, [CUPED](https://www.geteppo.com/blog/bending-time-in-experimentation), contextual bandits, geolift, and feature flagging architecture.
 
-- **Stitch Fix**, 2018 - 2021
+- **Stitch Fix**, Jun 2018 - Nov 2021
 
     On the Algorithms team at Stitch Fix I have worked on a variety of machine learning, statistics and opimtization problems. These include
     - Multiple algorithms based on latent embeddings: similar item search, diversifying recommendations, and generating outfits
