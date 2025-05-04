@@ -4,6 +4,9 @@ title: Research
 permalink: /research
 ---
 
+- [Want Your Company to Get Better at Experimentation? Learn fast by democratizing testing](https://hbr.org/2025/01/want-your-company-to-get-better-at-experimentation), [Harvard Business Review, 2025](https://hbr.org/)
+
+   *with [Iavor Bojinov](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1199332), [David Holtz](https://www.daveholtz.net/), [Ramesh Johari](https://web.stanford.edu/~rjohari/), and [Martin Tingley](https://www.linkedin.com/in/martintingley)*
 
 - [Sequential confidence intervals for relative lift with regression adjustments](/assets/pdf/code_2022_ci.pdf), [CODE 2022](https://ide.mit.edu/events/2022-conference-on-digital-experimentation-mit-codemit/)
 
