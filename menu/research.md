@@ -4,6 +4,10 @@ title: Research
 permalink: /research
 ---
 
+- [The future of large-scale experiments and their challenges in the digital era](https://www.nature.com/articles/s41562-026-02582-6), Nature Human Behaviour, 17 September 2026
+
+   *with David Holtz, Iavor Bojinov, Ramesh Johari, Nathan Kallus, Apoorva Lal, Sathya Anand, Kyle Carlson, Brent Cohn, Tom Cunningham, Alex Deng, Maria Dimakopoulou, Amit Gandhi, Victor Kostyuk, Madhav Kumar, Shyue-Ming Loh, Widad Machmouchi, Jialiang Mao, James McQueen, John Meakin, Konrad Miziolek, Dominique Perrault-Joncas, Vladimir Petrovic, James Sorenson, Matthew Wardrop, Michael Zhao, Wenjing Zheng, and Martin Tingley*
+
 - [Want Your Company to Get Better at Experimentation? Learn fast by democratizing testing](https://hbr.org/2025/01/want-your-company-to-get-better-at-experimentation), [Harvard Business Review, 2025](https://hbr.org/)
 
    *with [Iavor Bojinov](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=1199332), [David Holtz](https://www.daveholtz.net/), [Ramesh Johari](https://web.stanford.edu/~rjohari/), and [Martin Tingley](https://www.linkedin.com/in/martintingley)*
@@ -45,4 +49,3 @@ permalink: /research
 
     *with [Austin Benson](http://www.stanford.edu/~arbenson) and [Rob Schreiber](http://www.labs.hpe.com/people/rob_schreiber/).*
     [[arXiv](http://arxiv.org/abs/1312.2674)]
-

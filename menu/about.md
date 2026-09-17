@@ -8,11 +8,11 @@ permalink: /about
 ![sven](assets/img/sven.jpg){:height="200px" width="200px"}
 
 
-Welcome to my personal page. Currently, I help build [Eppo](https://www.geteppo.com/), an experimentation platform to empower the curious and entrepreneurial as the [Head of Statistics Engineering](https://www.geteppo.com/blog/were-hiring-a-statistics-engineer);
-my time is roughly equally split by doing statistics, engineering and product work.
+Welcome to my personal page. I work on Model Measurement at [OpenAI](https://openai.com/).
 
-Previously, I led the Core Representation Learning team at [Stitch Fix](https://algorithms-tour.stitchfix.com/).
-Our team builds multiple recommendation systems that help understand client perferences across multiple dimensions such as style and size and form the backbone of all recommendations across Stitch Fix products.
+Previously, I was Head of Statistics Engineering at [Eppo](https://www.geteppo.com/), an experimentation platform to empower the curious and entrepreneurial, where my time was roughly equally split between statistics, engineering and product work.
+Before that, I led the Core Representation Learning team at [Stitch Fix](https://algorithms-tour.stitchfix.com/).
+Our team built multiple recommendation systems to understand client preferences across dimensions such as style and size, forming the backbone of recommendations across Stitch Fix products.
 
 I obtained my PhD at [Stanford](http://icme.stanford.edu) working with [Ramesh Johari](http://www.stanford.edu/~rjohari).
 My interests are at the interface of statistics, mathematics and computer science.
@@ -20,10 +20,18 @@ My interests are at the interface of statistics, mathematics and computer scienc
 
 ## Experience
 
-- **Eppo**, Nov 2021 - Now
+- **OpenAI**, Aug 2025 - Present
 
-    The statistics engineering team focuses on combining statistical rigour with an intuitive product that empowers everyone to analyze experiments with confidence.
-    Projects include work on sequential confidence intervals, [CUPED](https://www.geteppo.com/blog/bending-time-in-experimentation), contextual bandits, geolift, and feature flagging architecture.
+    Member of Technical Staff working on Model Measurement.
+
+- **Datadog**, May 2025 - Jul 2025
+
+    Staff Engineer following the acquisition of Eppo.
+
+- **Eppo**, Nov 2021 - May 2025
+
+    As Head of Statistics Engineering, I led a team focused on combining statistical rigour with an intuitive product that empowers everyone to analyze experiments with confidence.
+    Projects included work on sequential confidence intervals, [CUPED](https://www.geteppo.com/blog/bending-time-in-experimentation), contextual bandits, geolift, and feature flagging architecture.
 
 - **Stitch Fix**, Jun 2018 - Nov 2021
 
