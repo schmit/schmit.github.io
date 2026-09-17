@@ -19,6 +19,11 @@ highlighter:         rouge
 permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
+exclude:
+  - AGENTS.md
+  - README.md
+  - lagrange.gemspec
+
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
 title:		           'Random Projections'
 description:	       'Personal blog Sven Schmit'
