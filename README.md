@@ -33,4 +33,9 @@ Edit source files, not generated `_site/` output. Use Jujutsu (`jj`) for local
 version control.
 
 Shared style variables are in `_sass/_variables.scss`; the Sass entry point is
-`assets/css/main.scss`. Partials use Sass modules (`@use`).
+`assets/css/main.scss`. Keep Sass `@import` syntax: production currently uses
+GitHub Pages' branch-based build, whose legacy Sass compiler does not support
+`@use`. Local Dart Sass deprecation warnings for these imports are expected.
+The production builder uses GitHub Pages' bundled gems rather than this
+project's local Ruby/Jekyll versions. A future move to Sass modules must also
+migrate deployment to a custom build using the project's dependencies.
